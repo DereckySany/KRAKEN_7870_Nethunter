@@ -15,9 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: ./cronos.sh n 4
+      run: ./cronos.sh
     - name: make
-      run: n && 2
+      run: n && 2 && 4
     - name: make check
       run: make check
     - name: make distcheck
