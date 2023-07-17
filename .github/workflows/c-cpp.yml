@@ -5,6 +5,7 @@ on:
     branches: [ Nethunter ]
   pull_request:
     branches: [ Nethunter ]
+  workflow_dispatch:
 
 jobs:
   build:
