@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: ./skykernel.sh n 4
+      run: chmod +x skykernel.sh && ./skykernel.sh
     - name: make
       run: n && 2
     - name: make check
